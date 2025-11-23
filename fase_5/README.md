@@ -15,7 +15,7 @@ O código Python usa boto3 para publicar mensagens nesse tópico automaticamente
 ```
 fase_5/
 │── sns_alerta.py        # Função que envia alertas SNS
-│── envio_alerta.py      # Simulação de leitura de sensores e disparo do alerta
+│── envio_alerta.py      # Simulação de leitura de sensores
 │── teste_manual.py      # Teste manual da funcionalidade
 ```
 ## 3. Código implementado
