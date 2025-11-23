@@ -1,4 +1,10 @@
 # FASE 7
+## Integrantes
+
+Rodrigo Portugal Santos - RM564773
+Mauricio Jose Ferlin Tonnera - RM565469
+Carlos Daniel Silveira do Nascimento - RM88439
+Henrique Ribeiro Siqueira - RM565044
 
 ## FarmTech Solutions - Sistema Integrado de Gestão Agrícola (Fase 7)
 Este projeto representa a consolidação final (Fase 7) de um ecossistema completo de agricultura inteligente (Agro 4.0). O sistema integra desde o planejamento inicial de plantio, passando por monitoramento IoT e armazenamento de dados, até a tomada de decisão avançada com Inteligência Artificial e Visão Computacional, tudo conectado à nuvem AWS.
