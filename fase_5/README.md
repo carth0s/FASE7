@@ -59,6 +59,9 @@ from envio_alerta import monitorar_umidade
 
 monitorar_umidade(35)
 ```
+
+> As credenciais foram removidas do código-fonte e armazenadas em um arquivo aws_credentials.json, que não é enviado ao GitHub, seguindo as boas práticas de segurança da ISO 27001.
+
 ## 4. Segurança – Aplicação das Normas ISO 27001 / ISO 27002
 
 A Fase 5 exige explicar como padrões de segurança são aplicados. Aqui está um texto perfeito para o relatório:
