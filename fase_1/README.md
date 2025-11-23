@@ -17,8 +17,8 @@ Este programa permite calcular automaticamente:
 
 -   Consumo anual de insumos (fertilizante ou pesticida)
 -   Média anual de litros utilizados
--   Excedente em relação à média\
--   Custo total\
+-   Excedente em relação à média
+-   Custo total
 -   Informações específicas para as culturas **Arroz** ou **Feijão**
 
 ### ✔ Como funciona
@@ -26,20 +26,21 @@ Este programa permite calcular automaticamente:
 O usuário informa:
 
 1.  Cultura
-    -   A = Arroz\
+    -   A = Arroz
     -   F = Feijão
 2.  Insumo
-    -   F = Fertilizante\
+    -   F = Fertilizante
     -   P = Pesticida
 3.  Valores de consumo (em litros)
 
-O programa ajusta os valores conforme: - Fatores de produção anuais\
-- Tempo de ciclo da cultura\
+O programa ajusta os valores conforme: - Fatores de produção anuais
+- Tempo de ciclo da cultura
 - Preço por litro do insumo
 
-E devolve um relatório com: - Total anual\
-- Média\
-- Excedentes\
+E devolve um relatório com: 
+- Total anual
+- Média
+- Excedentes
 - Custo total estimado
 
 ### ▶ Como executar
@@ -62,33 +63,39 @@ calcular áreas e estimar aplicação de insumos.
 
 #### **1) Selecionar cultura**
 
-Permite escolher entre: - Arroz\
+Permite escolher entre: 
+- Arroz
 - Feijão
 
-E calcular a área em: - Retângulo\
-- Círculo\
+E calcular a área em: 
+- Retângulo
+- Círculo
 - Trapézio
 
-Após isso, o usuário seleciona o insumo: - Fertilizante (500 mL por m²)\
+Após isso, o usuário seleciona o insumo: 
+- Fertilizante (500 mL por m²)
 - Pesticida (250 mL por m²)
 
-O sistema calcula automaticamente: - Aplicação total\
+O sistema calcula automaticamente: 
+- Aplicação total
 - Volume em litros
 
 ------------------------------------------------------------------------
 
 #### **2) Exibir culturas adicionadas**
 
-Mostra uma lista com: - Cultura cadastrada\
-- Área (m²)\
-- Insumo aplicado\
+Mostra uma lista com: 
+- Cultura cadastrada
+- Área (m²)
+- Insumo aplicado
 - Quantidade estimada (litros)
 
 ------------------------------------------------------------------------
 
 #### **3) Atualizar informações**
 
-Permite alterar: - Área total (com novo formato)\
+Permite alterar: 
+- Área total (com novo formato)
 - Insumo utilizado
 
 E recalcula automaticamente a aplicação necessária.
