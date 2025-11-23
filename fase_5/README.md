@@ -2,7 +2,7 @@
 ## 1. Objetivo da Fase 5 
 
 Esta fase tem como objetivo demonstrar a implantação de recursos de Cloud Computing na AWS, aplicando boas práticas de segurança e garantindo que o sistema agrícola tenha disponibilidade, escalabilidade e proteção de dados.
-Além disso, foi implementado um sistema de alertas automáticos via e-mail usando AWS SNS integrado ao código Python.
+Além disso, foi implementado um sistema de alertas automáticos via AWS SNS (e-mail), integrado ao código Python.
 
 ## 2. Arquitetura Implementada
 ### 2.1 AWS SNS (Simple Notification Service)
