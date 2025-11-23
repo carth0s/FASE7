@@ -62,6 +62,8 @@ monitorar_umidade(35)
 
 > As credenciais foram removidas do código-fonte e armazenadas em um arquivo aws_credentials.json, que não é enviado ao GitHub, seguindo as boas práticas de segurança da ISO 27001.
 
+> A integração com SNS foi validada com sucesso: ao executar o teste manual com umidade abaixo de 40%, o e-mail foi corretamente recebido.
+
 ## 4. Segurança – Aplicação das Normas ISO 27001 / ISO 27002
 
 A Fase 5 exige explicar como padrões de segurança são aplicados. Aqui está um texto perfeito para o relatório:
