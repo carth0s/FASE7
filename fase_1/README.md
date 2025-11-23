@@ -15,8 +15,8 @@ cadastro e gerenciamento de culturas.
 
 Este programa permite calcular automaticamente:
 
--   Consumo anual de insumos (fertilizante ou pesticida)\
--   Média anual de litros utilizados\
+-   Consumo anual de insumos (fertilizante ou pesticida)
+-   Média anual de litros utilizados
 -   Excedente em relação à média\
 -   Custo total\
 -   Informações específicas para as culturas **Arroz** ou **Feijão**
