@@ -119,7 +119,7 @@ python gestao_agricola.py
 
 ## 🧩 Tecnologias utilizadas
 
--   **R (base)**\
+-   **R (base)**
 -   **Python 3 (math library)**
 
 ------------------------------------------------------------------------
