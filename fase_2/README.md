@@ -107,8 +107,3 @@ Uma plantação pode receber várias aplicações de nutrientes (1:N – T_PLANT
 Uma plantação pode registrar diferentes ciclos de culturas (1:N – T_PLANTACAO → T_PLANTACAO_CULTURA)
 
 Uma cultura pode ser plantada em várias plantações ao longo do tempo (1:N – T_CULTURA → T_PLANTACAO_CULTURA)
-
-
-# Instruções para abrir o arquivo:
-
-Para abrir DER.dmd no Data Modeler, descompacte o ZIP mantendo a pasta DER ao lado do .dmd, sem ela o diagrama não é carregado.
