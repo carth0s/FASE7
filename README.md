@@ -17,17 +17,17 @@ Segurança: Gestão de credenciais via secrets.toml (não expostas no código).
 ## Detalhamento dos Módulos Integrados
 O dashboard está dividido nas seguintes seções, correspondentes às entregas anteriores:
 
-### Fase 1: Planejamento & Análise Estatística
+## Fase 1: Planejamento & Análise Estatística
 O que faz: Realiza o cálculo da área de plantio (suportando geometrias complexas como Trapézios e Círculos) e projeta o custo de insumos (Fertilizantes/Pesticidas).
 
 Tecnologia: Scripts Python para cálculo geométrico e tradução da lógica estatística (originalmente em R) para calcular Média, Desvio Padrão e Excedentes de consumo baseados em amostras de campo.
 
-### Fase 2: Banco de Dados (CRUD)
+## Fase 2: Banco de Dados (CRUD)
 O que faz: Garante a persistência dos dados. Permite cadastrar Sensores e registrar Leituras históricas.
 
 Tecnologia: SQLite. O sistema cria automaticamente o arquivo sensores.db e gerencia duas tabelas relacionais (T_SENSOR e T_LEITURA_SENSOR). Inclui interface visual para inserir, visualizar, atualizar e deletar registros.
 
-### Fase 3: IoT & Gêmeo Digital (Digital Twin)
+## Fase 3: IoT & Gêmeo Digital (Digital Twin)
 O que faz: Simula o hardware físico (ESP32) dentro do navegador.
 
 Funcionalidade:
@@ -38,21 +38,21 @@ Automação: Se a umidade cair abaixo de 40%, o sistema liga visualmente a "Bomb
 
 Gráfico em tempo real simulando o "Serial Plotter".
 
-### Fase 4: Machine Learning (Preditivo)
+## Fase 4: Machine Learning (Preditivo)
 O que faz: Utiliza Inteligência Artificial para decidir se o solo precisa de irrigação, indo além da simples regra "se/então".
 
 Tecnologia: Modelo Scikit-Learn (RandomForest ou similar) treinado com dados históricos.
 
 Integração: O dashboard carrega o arquivo modelo_irrigacao.pkl. O usuário insere a umidade e o modelo classifica a situação como "Irrigar" ou "Aguardar". Possui sistema de fallback (simulação) caso o modelo não seja encontrado.
 
-### Fase 5: Cloud Computing (AWS)
+## Fase 5: Cloud Computing (AWS)
 O que faz: Sistema de mensageria para alertas críticos. Conecta a borda (Edge) à Nuvem.
 
 Tecnologia: AWS SNS (Simple Notification Service) via biblioteca boto3.
 
 Fluxo: Quando uma condição crítica é detectada (ex: Umidade < 40% ou Doença na planta), o sistema dispara um e-mail/SMS real para o agrônomo responsável. As credenciais são gerenciadas de forma segura.
 
-### Fase 6: Visão Computacional
+## Fase 6: Visão Computacional
 O que faz: Monitoramento fitossanitário visual.
 
 Tecnologia: Simulação de uma rede neural YOLO (You Only Look Once).
