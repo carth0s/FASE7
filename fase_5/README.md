@@ -12,11 +12,12 @@ Foi criado um tópico SNS chamado AlertasFarmtech, responsável por enviar notif
 O código Python usa boto3 para publicar mensagens nesse tópico automaticamente.
 
 ### 2.2 Estrutura do Projeto (Fase 5)
+```
 fase_5/
 │── sns_alerta.py        # Função que envia alertas SNS
 │── envio_alerta.py      # Simulação de leitura de sensores e disparo do alerta
 │── teste_manual.py      # Teste manual da funcionalidade
-
+```
 ## 3. Código implementado
 ### 3.1 sns_alerta.py
 ```
