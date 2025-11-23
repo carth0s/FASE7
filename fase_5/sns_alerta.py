@@ -2,7 +2,6 @@ import boto3
 import json
 
 def enviar_alerta(mensagem):
-    # Lê chaves de um arquivo (NÃO subir no GitHub!)
     with open("aws_credentials.json") as f:
         cred = json.load(f)
 
@@ -20,3 +19,4 @@ def enviar_alerta(mensagem):
     )
 
     print("[AWS SNS] Alerta enviado:", mensagem)
+
