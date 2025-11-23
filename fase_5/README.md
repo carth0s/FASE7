@@ -1,4 +1,4 @@
-# Fase 5 – Documentação Completa (Cloud Computing & Segurança)
+# Fase 5 
 ## 1. Objetivo da Fase 5
 
 Esta fase tem como objetivo demonstrar a implantação de recursos de Cloud Computing na AWS, aplicando boas práticas de segurança e garantindo que o sistema agrícola tenha disponibilidade, escalabilidade e proteção de dados.
