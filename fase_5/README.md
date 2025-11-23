@@ -135,8 +135,8 @@ A integração Python + SNS permite que qualquer outra fase (sensores, visão co
 
 A fase 5 foi completada com sucesso, incluindo:
 
-✔ Integração em nuvem usando AWS SNS
-✔ Código Python funcional enviando alertas
-✔ Documentação de segurança com ISO 27001/27002
-✔ Explicação de escalabilidade e disponibilidade
-✔ Construção da parte Cloud Computing do sistema
+- Integração em nuvem usando AWS SNS
+- Código Python funcional enviando alertas
+- Documentação de segurança com ISO 27001/27002
+- Explicação de escalabilidade e disponibilidade
+- Construção da parte Cloud Computing do sistema
