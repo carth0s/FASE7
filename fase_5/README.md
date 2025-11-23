@@ -131,9 +131,9 @@ Criptografia em trânsito (TLS)
 
 A integração Python + SNS permite que qualquer outra fase (sensores, visão computacional, banco de dados) dispare alertas facilmente.
 
-## 6. Conclusão da Fase 5
+## 6. Conclusão
 
-A fase 5 foi completada com sucesso, incluindo:
+A fase 5 possui:
 
 - Integração em nuvem usando AWS SNS
 - Código Python funcional enviando alertas
