@@ -93,3 +93,7 @@ Rode o comando:
 streamlit run app.py
 ```
 O sistema abrirá automaticamente no seu navegador (geralmente em http://localhost:8501).
+
+### Vídeo do sistema:
+
+https://youtu.be/DXLDalimsj0?si=7LqSm29-xHzwJbN-
